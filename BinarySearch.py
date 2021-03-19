@@ -19,5 +19,6 @@ def binarySearch(list1,key):
   
        
 list1=[10,20,30,40,50,60,70]
+list1.sort()
 ind=binarySearch(list1,10)
 if (ind!=None):print(ind)
